@@ -1,0 +1,384 @@
+
+body {
+    font-family: 'Segoe UI',SegoeUI,'Yu Gothic UI','Meiryo UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2, h4 {
+    font-weight: 600;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+.padding {
+    padding-top: 3rem;
+}
+.padding-b {
+    padding-bottom: 2rem;
+}
+
+/* navigation */
+.navbar {
+    padding: .2rem .5rem;
+}
+.navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: .8rem;
+    font-weight: 350;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+.navbar-light .navbar-nav .nav-l:hover {
+    border-bottom: 1px solid #000000;
+}
+.nav-right {
+    padding-top: .9rem;
+}
+#signin{
+    padding-right: 0;
+}
+.navbar-brand {
+    padding-top: 0;
+}
+.navbar-brand img{
+    width: 110px;
+}
+
+.navbar-nav img{
+    width: 32px;
+    height: 32px;
+}
+
+/* alert */
+.alert {
+    margin: 0;
+}
+
+
+/* carousel */
+.carousel-inner img{
+    width: 100%
+}
+.carousel-caption p {
+    display: block;
+}
+.carousel-caption button {
+    border-radius: 0;
+    display: inline-block;
+}
+.carousel-caption a {
+    display: block;
+    padding-top: 1rem;
+}
+.carousel-caption {
+    position: absolute;
+    top: 45%;
+}
+.carousel-caption h1, .carousel-caption h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #4b4b4b4b;
+}
+.carousel-2-wrapper {
+    color: #000000;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+}
+.carousel-2-wrapper h2 {
+    width: 21rem;
+}
+.carousel-2-wrapper p {
+    width: 21rem;
+}
+.carousel-2-wrapper button {
+    display: block;
+}
+
+
+/* four column section */
+
+
+.four img, .four p {
+    display: block;
+    margin: 0 auto;
+}
+.four img:hover, .four p:hover {
+    color: #616161;
+}
+
+
+/* card */
+.card {
+    border: none;
+}
+.card-body a:hover {
+    text-decoration: none;
+}
+.card-text {
+    padding-bottom: 1rem;
+}
+/* jumbotron */
+.edge, .news {
+    position: relative;
+}
+.edge img, .news img{
+    width: 100%;
+}
+.edge-caption {
+    position: absolute;
+    width: 450px;
+    margin: auto;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.edge-caption h2 {
+    font-weight: 600;
+    min-width: 425px;
+}
+.edge-caption button, .news-caption button {
+    border-radius: 0;
+    background-color: black;
+}
+
+.news-caption {
+    position: absolute;
+    width: 25%;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+/*   connect    */
+.connect {
+    height: 7rem;
+    position: relative;
+}
+.social {
+    position: absolute;
+    top: 20%;
+}
+.connect a, .connect p {
+    display: inline-block;
+    padding: .5rem .5rem;
+    vertical-align: center;
+}
+.social a {
+    font-size: 2rem;
+}
+.social p {
+    transform: translateY(-17%);
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-twitter {
+    color: #00aced;
+}
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-twitter:hover, .fa-facebook:hover, .fa-youtube:hover {
+    color: #d5d5d5;
+}
+/* footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding-top: 1em;
+    color: #616161;
+}
+
+footer a {
+    color: #616161;
+    font-size: .5em;
+    display: inline-block;
+    padding-bottom: .4rem;
+}
+
+footer h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-col {
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.foot {
+    padding: 1rem;
+}
+.foot a {
+    margin-right: .5rem;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: .3em .5em
+    }
+    .navbar-toggler {
+        position: absolute;
+        float: left;
+        top: 0;
+        margin-top: .1em
+    }
+    .navbar-toggler button {
+        border: transparent;
+    }
+    .navbar-brand {
+        margin: 0 auto;
+        transform: translateX(-10%);
+    }
+    .nav-default {
+    }
+    .nav-default-item {
+        text-align: center;
+    }
+    .cart {
+        top: 0;
+        position: absolute;
+        right: 4.9em;
+    }
+    .signin {
+        top: 0;
+        position: absolute;
+        right: 1em;
+    }
+    .search {
+        top: 0;
+        position: absolute;
+        left: 7em;
+    }
+
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-2-wrapper {
+        top: 20%;
+        left: 6%;
+    }
+    .carousel-caption h1, .carousel-caption h2, .edge-caption h2 {
+        font-size: 20px;
+    }
+    .carousel-caption p, .carousel-caption a, .edge-caption p {
+        font-size: .9em;
+        margin-bottom: .5rem;
+    }
+    .carousel-2-wrapper h2 {
+        width: 17rem;
+    }
+    .carousel-2-wrapper p {
+        width: 17rem;
+    }
+    .btn {
+        font-size: 85%;
+        padding: 3px 6px;
+    }
+    .carousel-caption a {
+        padding-top: .5rem;
+    }
+    .edge-caption {
+        top: 10%;
+        width: 250px;
+    }
+    .edge-caption h2 {
+        min-width: 200px;
+    }
+    .four img, .four p {
+        display: inline;
+        text-align: left;
+    }
+    .four .col-md-3 {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 576px) {
+    .alert {
+        font-size: .8em;
+    }
+    .alert button{
+        transform: translateY(-10%);
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        z-index: 2;
+    }
+    .carousel-caption {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #616161;
+        z-index: 1;
+    }
+    .carousel-caption h1 {
+        padding-top: 1.5rem;
+    }
+    .carousel-caption button {
+        margin-top: .4rem;
+    }
+    .carousel-2-wrapper {
+        position: relative;
+        background-color: #e6e6e6e6;
+        z-index: 1;
+    }
+    .carousel-2-wrapper h2, .carousel-2-wrapper p, .carousel-2-wrapper button {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .carousel-2-wrapper h2, .carousel-2-wrapper p {
+        width: 70%;
+        min-width: 100px;
+        padding-top: .2rem;
+    }
+    .carousel-2-wrapper h2 {
+        padding-top: .8rem;
+    }
+    .carousel-2-wrapper p {
+        padding-bottom: .5rem;
+    }
+    .carousel-caption, .carousel-2-wrapper {
+        height: 260px;
+    }
+    .edge-caption {
+        position: relative;
+        background-color: #e6e6e6e6;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5em 5em;
+    }
+    .news-caption {
+        position: relative;
+        transform: unset;
+        background-color: #e6e6e6e6;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .news-caption h2 {
+        font-size: 1.4em;
+    }
+    .news-caption p {
+        font-size: 1em;
+    }
+
+}

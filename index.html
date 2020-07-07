@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>日本マイクロソフト -Official Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!------navigation------->
+<nav class="navbar navbar-expand-md navbar-light bg-light　p-2">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link nav-l" href="#">Microsoft 365</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-l" href="#">Office</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-l" href="#">Windows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-l" href="#">Surface</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-l" href="#">Xbox</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar-nav nav-default">
+            <li class="nav-item">
+                <a class="nav-link nav-right nav-default-item search" href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-right nav-default-item cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-default-item signin" id="signin" href="#"><img src="images/signin.png"> </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!------alert------->
+<div class="alert alert-danger alert-dismissible fade show">
+    <span>注意：これは本物のマイクロソフトのホームページではありません。</span>
+    <button class="close" data-dismiss="alert">&times;</button>
+</div>
+
+
+<!------image Slider------->
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="d-none d-sm-block"><img src="images/carousel1.png"></div>
+            <div class="d-sm-none"><img src="images/carousel1xs.png"></div>
+            <div class="carousel-caption">
+                <h1 class="display-2">Microsoft Teams</h1>
+                <p>チャット、ミーティング、通話、共同作業</p>
+                <button type="button" class="btn btn-light">詳細はこちら <i class="fas fa-chevron-right"></i></button><br>
+                <a href="#" class="text-light">導入のご相談はこちら <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-none d-sm-block"><img src="images/carousel2.png"></div>
+            <div class="d-sm-none"><img src="images/carousel2xs.png"></div>
+            <div class="carousel-caption carousel-2-wrapper">
+                <h2 class="display4">想像を超えた、パフォーマンスを。</h2>
+                <p>今までで最もパワフルな新 Surface Book 3 1台でノートPC、タブレット、ポータブルスタジオ、多様なシチュエーションでお使いいただけます。</p>
+                <button type="button" class="btn btn-dark btn-margin">今すぐ購入　<i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!------four column section------->
+<div class="container-fluid">
+    <div class="row text-center padding four">
+        <div class="col-md-3 padding">
+            <a href="#">
+                <img src="images/windows1.png">
+                <p>あなたに最適なMicrosoft 365 を選びましょう</p>
+            </a>
+        </div>
+        <div class="col-md-3 padding">
+            <a href="#">
+                <img src="images/surface.png">
+                <p>Surface デバイスを購入する</p>
+            </a>
+        </div>
+        <div class="col-md-3 padding">
+            <a href="#">
+                <img src="images/xbox.png">
+                <p>Xbox ゲームと本体を購入する</p>
+            </a>
+        </div>
+        <div class="col-md-3 padding">
+            <a href="#">
+                <img src="images/windows2.png">
+                <p>Windows 10 を購入する</p>
+            </a>
+        </div>
+    </div>
+</div>
+<!------cards------->
+<div class="container-fluid padding-b">
+    <div class="row padding">
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/surfacepro7.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">Surface Pro 7</h4></a>
+                    <a href="#"><p class="card-text">あなたが知っている Windows をもっと活用してください。ノートパソコン並みのインテル® Core™ プロセッサーを搭載した Surface Pro 7 は、これまで以上にパワフルです。</p></a>
+                    <a href="#" class="text-primary">今すぐ購入 <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/office365.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">あなただけの 365 日</h4></a>
+                    <a href="#"><p class="card-text">Microsoft 365 で毎日何ができるか見つけましょう。</p></a><br>
+                    <a href="#" class="text-primary">今すぐ購入 <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/laptops.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">Surface Laptop 3</h4></a>
+                    <a href="#"><p class="card-text">薄型、軽量、エレガントなデザイン、高速パフォーマンス、最大 11.5 時間のバッテリ持続時間で、力強い表現力を発揮します。</p></a>
+                    <a href="#" class="text-primary">今すぐ購入 <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/xboxones.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">Xbox One S</h4></a>
+                    <a href="#"><p class="card-text">4K Ultra HD Blu-ray を搭載し、4K ビデオ ストリーミングにも対応。お好みのゲームやエンターテイメントを手軽に楽しもう。</p></a>
+                    <a href="#" class="text-primary">今すぐ購入 <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------edge------->
+<div class="container-fluid padding-b">
+    <div class="row edge">
+        <div class="d-none d-sm-block"><img src="images/edge.png"></div>
+        <div class="d-sm-none"><img src="images/edges.png"></div>
+        <div class="edge-caption">
+            <h2>新しい Microsoft Edge が登場</h2>
+            <p>高レベルのパフォーマンスで、閲覧時のプライバシーの強化、生産性の向上、そしてさらに多くの価値を提供します</p>
+            <button type="button" class="btn btn-dark">今すぐダウンロード <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+<!------cards------->
+<div class="container-fluid padding padding-b">
+    <h2>法人のお客様</h2>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/partner.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">究極のビジネスパートナー</h4></a>
+                    <a href="#"><p class="card-text">新しいビジネス向け Surface Book 3 は、最も集中的なワークロードを処理するように構築されています。</p></a>
+                    <a href="#" class="text-primary">今すぐ購入 <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/business365.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">法人向け Microsoft 365</h4></a>
+                    <a href="#"><p class="card-text">法人向け Microsoft 365 が提供する強力なサービスで、ビジネスの運営と成長をお手伝いします。</p></a><br>
+                    <a href="#" class="text-primary">購入はこちら <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/solution.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">現在直面している課題のソリューション</h4></a>
+                    <a href="#"><p class="card-text">手頃で実践的な解決策でビジネスを継続し続ける方法をご紹介します。</p></a>
+                    <a href="#" class="text-primary">詳しくはこちら <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <a href="#"><img class="card-img-top" src="images/hololens2.png"></a>
+                <div class="card-body">
+                    <a href="#"><h4 class="card-title">Hololens 2</h4></a>
+                    <a href="#"><p class="card-text">ビジネスに対応した Mixed Reality</p></a>
+                    <a href="#" class="text-primary">今すぐ購入 <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------news------->
+<div class="container-fluid">
+    <div class="row news">
+        <img src="images/news.png">
+        <div class="news-caption">
+            <h2>News Center</h2>
+            <p>プレスリリースなどの最新企業情報</p>
+            <button type="button" class="btn btn-dark">詳細はこちら <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+
+<!------connect------->
+<div class="container-fluid">
+<div class="connect">
+    <div class="social">
+    <p>Microsoftをフォロー</p>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</div>
+</div>
+
+<!------footer------->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-sm-4 footer-col">
+                <h4>最新情報</h4>
+                <a href="#">Surface Go 2</a><br>
+                <a href="#">Surface Book 3</a><br>
+                <a href="#">Microsoft 365</a><br>
+                <a href="#">Windows 10 アプリ</a>
+            </div>
+            <div class="col-sm-4 footer-col">
+                <h4>Microsoft Store</h4>
+                <a href="#">アカウント プロファイル</a><br>
+                <a href="#">ダウンロード センター</a><br>
+                <a href="#">Microsoft Store サポート</a><br>
+                <a href="#">返品・返金</a><br>
+                <a href="#">ご注文履歴</a>
+            </div>
+            <div class="col-sm-4 footer-col">
+                <h4>教育</h4>
+                <a href="#">教育機関向けの Microsoft 製品</a><br>
+                <a href="#">学生向け Office</a><br>
+                <a href="#">Office 365 の教育機関向け製品</a><br>
+                <a href="#">教育機関向けの Microsoft Azure</a><br>
+            </div>
+            <div class="col-sm-4 footer-col">
+                <h4>エンタープライズ</h4>
+                <a href="#">Azure</a><br>
+                <a href="#">Microsoft AppSource</a><br>
+                <a href="#">自動車</a><br>
+                <a href="#">政府・公共機関</a><br>
+                <a href="#">医療機関</a><br>
+                <a href="#">製造</a><br>
+                <a href="#">ファイナンス　サービス</a><br>
+                <a href="#">小売</a>
+            </div>
+            <div class="col-sm-4 footer-col">
+                <h4>開発者</h4>
+                <a href="#">Microsoft Visual Studio</a><br>
+                <a href="#">Windows デベロッパー センター</a><br>
+                <a href="#">Developer Network</a><br>
+                <a href="#">TechNet</a><br>
+                <a href="#">Microsoft 開発者プログラム</a><br>
+                <a href="#">チャネル 9</a><br>
+                <a href="#">Office デベロッパー センター   </a>
+            </div>
+            <div class="col-sm-4 footer-col">
+                <h4>会社</h4>
+                <a href="#">採用情報</a><br>
+                <a href="#">会社のニュース</a><br>
+                <a href="#">マイクロソフトにおけるプライバシー</a><br>
+                <a href="#">投資家</a><br>
+                <a href="#">アクセシビリティ</a><br>
+                <a href="#">セキュリティ</a>
+            </div>
+
+            <div class="container-fluid">
+                <div class="language mr-auto">
+                    <a href="#"><i class="fas fa-globe-asia"></i></a>
+                    <a>日本語</a>
+                </div>
+                <div class="foot ml-auto">
+                    <a href="#">Microsoft に問合せ</a>
+                    <a href="#">プライバシー</a>
+                    <a href="#">使用条件</a>
+                    <a href="#">商標</a>
+                    <a href="#">広告について</a>
+                    <a href="#">&copy; Microsoft 2020</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
