@@ -281,10 +281,7 @@ footer h4 {
         font-size: .9em;
         margin-bottom: .5rem;
     }
-    .carousel-2-wrapper h2 {
-        width: 17rem;
-    }
-    .carousel-2-wrapper p {
+    .carousel-2-wrapper h2, .carousel-2-wrapper p {
         width: 17rem;
     }
     .btn {
@@ -311,6 +308,9 @@ footer h4 {
 }
 
 @media (max-width: 576px) {
+    .spNone {
+        display: none;
+    }
     .alert {
         font-size: .8em;
     }
@@ -381,4 +381,29 @@ footer h4 {
         font-size: 1em;
     }
 
+}
+@media (min-width: 1080px) {
+    .container-margin {
+        margin: 0 3rem;
+    }
+    .carousel-caption {
+        top: 55%;
+    }
+    .carousel-2-wrapper {
+        top: 25%;
+        left: 8%;
+    }
+    .carousel-caption h1, .carousel-caption h2, .edge-caption h2 {
+        font-size: 2.5em;
+    }
+    .carousel-2-wrapper h2, .carousel-2-wrapper p {
+        width: 22rem;
+    }
+    .edge {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-col {
+        padding-left: 4em;
+    }
 }
